@@ -1,45 +1,64 @@
-## 🧠Project Overview
-This project involved building a **Power BI dashboard** for AtliQ Hardware, aimed at enhancing the company's ability to track and analyze real-time sales data. Using a combination of **SQL queries** for data extraction and **Power BI** for visualization, the goal was to provide actionable business insights for the sales and marketing teams.
+# 🚀 AuroraSQL Analysis Project
 
-## 📊Project Breakdown
-This project uses the AIMS grid project planning approach and follows a structured process of data collection, transformation, and visualization. The primary goal was to integrate data from various sources, including sales transactions, customers, markets, and products, into a unified reporting tool. Here are the core components of the dashboard:
+## 📜 Project Overview
 
-- **Sales Performance Analysis**: Visualizes the sales amount, profit margins, and quantity of products sold across different markets and customer types.
-- **Product Insights**: Provides detailed breakdowns by product type and market, helping identify best-sellers and areas for growth.
-- **Time-based Trends**: Uses date dimensions to track sales performance over time, showing trends in sales amounts and profit margins by month, quarter, or year.
-- **Interactive Features**: Users can filter the data based on various factors such as region, customer type, product type, and time period to get customized reports.
+The **AuroraSQL Analysis Project** is focused on performing **risk analysis** using **SQL queries** on datasets provided. The goal is to analyze various aspects of the business through data and generate insights related to **risk evaluation**.
 
-## 🔍Key Features
-- **Sales Trends**: A line chart shows sales performance over time, helping managers understand how sales fluctuate monthly, quarterly, or yearly.
-- **Market Analysis**: A geographical map visualizes sales performance by region, providing valuable insights into which markets are performing well and which need attention.
-- **Customer Insights**: The dashboard includes detailed customer data, allowing the sales team to segment by customer type and identify areas for improvement.
-- **Profit Margin Analysis**: A measure of profit margins is calculated for each sale, helping the company evaluate the profitability of its products and services.
+## 🛠️ Tools & Technologies
 
-## 🔍Data Integration and Transformation
-- The data was sourced from an internal **SQL database** containing transaction details, customer information, and market data. 
-- The **ETL process** involved extracting the data, transforming it into a usable format, and loading it into Power BI for visualization.
-- **Power BI** was used to extract the data via DirectQuery, ensuring real-time analysis without affecting the source database. **SQL queries** were used to clean and transform the data before it was visualized in Power BI.
+- **AuroraSQL (Amazon Aurora)**: Database system used for querying and managing the data.
+- **SQL**: Language used for querying, filtering, and aggregating the data to extract valuable insights.
+- **Microsoft Excel**: Used for initial data exploration, cleaning, and visualization.
 
-## 📊Screenshots
-![Dashboard Screenshot](https://github.com/Yungssu/PowerBIDashboard/blob/main/AtliqDashboard.png)
+## 📊 Datasets
 
-## 📈Success Criteria
-- **Efficiency Gains**: This dashboard significantly reduces the manual work previously done in Excel, saving both time and cost for the sales and marketing teams.
-- **Real-time Insights**: By automating the data collection and visualization process, the dashboard provides up-to-date insights on sales performance.
-- **Cost Reduction**: One of the main goals of the project was to reduce costs associated with manual data processing and improve data quality.
-- **Increase in Sales**: By leveraging data-driven decisions, the company aims to boost sales performance by identifying trends and areas for growth.
+The following datasets are used in this analysis:
 
-## Challenges Faced
-One challenge was ensuring that the **SQL database** could handle complex queries without slowing down the operational systems. To solve this, we implemented **optimized queries** and focused on using Power BI's **data modeling** capabilities to minimize the impact on performance.
+1. **cards_data.xlsx**: Contains information related to cards, such as card types, usage data, and customer demographics.
+2. **[Additional Dataset Name]**: [Brief description of the dataset].
 
-## 💡Future Improvements
-- **Automation of Data Imports**: Future updates may include an automated ETL pipeline for data extraction, transformation, and loading.
-- **Additional Analytics**: Incorporating predictive analytics using Power BI’s advanced AI features to forecast future sales trends.
+## 🏗️ Setup & Installation
 
-## 💡Key Achievements:
-  - Reduced manual work previously performed in Excel.
-  - Provided real-time insights, helping sales teams make data-driven decisions.
-  - Streamlined the sales analysis process, saving time and operational costs.
+### 1. Database Setup
 
-## 🔗 Portfolio Link  
-[Back to My Portfolio][(https://github.com/Yungssu/kennethHuyong.github.io)
+- Set up an **Amazon Aurora database** to store and access the data.
+- Ensure the database is properly configured to run **SQL queries**.
+
+### 2. Data Import
+
+- Import the **cards_data.xlsx** dataset (and any additional datasets) into **AuroraSQL**.
+- Use the appropriate **SQL commands** (e.g., `LOAD DATA`, `INSERT INTO`) to populate the database.
+
+### 3. Query Development
+
+- Develop **SQL queries** to analyze the risk-related patterns within the data.
+- Use `SELECT` statements to filter and aggregate data for detailed insights.
+
+## 💻 Key SQL Queries
+
+Here are examples of the SQL queries used in the analysis:
+
+1. **Basic Risk Overview**:
+   ```sql
+   SELECT card_type, COUNT(*) AS total_cards, SUM(risk_factor) AS total_risk
+   FROM cards_data
+   GROUP BY card_type;
+
+2. **Risk Factor by Demographics**:
+   ```sql
+SELECT age_group, AVG(risk_factor) AS avg_risk
+FROM cards_data
+GROUP BY age_group;
+
+## 🔍 Key Insights & Analysis
+[Brief summary of findings]: Summary of insights derived from the analysis, including observed trends, risk factors, and business recommendations.
+🤝 Contributing
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. Please make sure that any new code is well-documented.
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+Amazon Aurora for the database solution.
+Microsoft Excel for initial data exploration.
+[Any other contributors or resources].
