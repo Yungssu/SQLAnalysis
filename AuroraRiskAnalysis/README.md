@@ -1,64 +1,42 @@
-# 🚀 AuroraSQL Analysis Project
+# 🚀 **AuroraSQL Customer Profiling & Risk Analysis**
 
-## 📜 Project Overview
+## 📜 **Project Overview**
 
-The **AuroraSQL Analysis Project** is focused on performing **risk analysis** using **SQL queries** on datasets provided. The goal is to analyze various aspects of the business through data and generate insights related to **risk evaluation**.
+The **AuroraSQL Customer Profiling & Risk Analysis Project** utilizes SQL to analyze customer data, focusing on debt levels, transaction behavior, and risk segmentation. This project provides actionable insights for business decision-making, specifically addressing questions about customer financial behavior and segmentation.
 
-## 🛠️ Tools & Technologies
+---
 
-- **AuroraSQL (Amazon Aurora)**: Database system used for querying and managing the data.
-- **SQL**: Language used for querying, filtering, and aggregating the data to extract valuable insights.
-- **Microsoft Excel**: Used for initial data exploration, cleaning, and visualization.
+## 🛠️ **Tools & Technologies**
 
-## 📊 Datasets
+- **Amazon AuroraSQL**: Relational database system for efficient querying and analysis.  
+- **SQL**: For data extraction, transformation, and analysis.  
+- **Microsoft Excel**: Used for initial data exploration and summarization.
 
-The following datasets are used in this analysis:
+---
 
-1. **cards_data.xlsx**: Contains information related to cards, such as card types, usage data, and customer demographics.
-2. **[Additional Dataset Name]**: [Brief description of the dataset].
+## 📊 **Datasets**
 
-## 🏗️ Setup & Installation
+1. **Users Data**: Contains demographic, income, and financial data (e.g., total debt, yearly income, and credit scores).  
+2. **Transactions Data**: Details merchant transactions, errors, and volumes.
 
-### 1. Database Setup
+---
 
-- Set up an **Amazon Aurora database** to store and access the data.
-- Ensure the database is properly configured to run **SQL queries**.
+## 💻 **Key SQL Queries**
 
-### 2. Data Import
+### **1. Top Merchants by Transaction Errors**
 
-- Import the **cards_data.xlsx** dataset (and any additional datasets) into **AuroraSQL**.
-- Use the appropriate **SQL commands** (e.g., `LOAD DATA`, `INSERT INTO`) to populate the database.
-
-### 3. Query Development
-
-- Develop **SQL queries** to analyze the risk-related patterns within the data.
-- Use `SELECT` statements to filter and aggregate data for detailed insights.
-
-## 💻 Key SQL Queries
-
-Here are examples of the SQL queries used in the analysis:
-
-1. **Basic Risk Overview**:
-   ```sql
-   SELECT card_type, COUNT(*) AS total_cards, SUM(risk_factor) AS total_risk
-   FROM cards_data
-   GROUP BY card_type;
-
-2. **Risk Factor by Demographics**:
-   ```sql
-SELECT age_group, AVG(risk_factor) AS avg_risk
-FROM cards_data
-GROUP BY age_group;
-
-## 🔍 Key Insights & Analysis
-[Brief summary of findings]: Summary of insights derived from the analysis, including observed trends, risk factors, and business recommendations.
-🤝 Contributing
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. Please make sure that any new code is well-documented.
-
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-Amazon Aurora for the database solution.
-Microsoft Excel for initial data exploration.
-[Any other contributors or resources].
+**Objective**: Identify merchants with the highest transaction errors and their error rates.  
+**Query**:  
+```sql
+SELECT
+    merchant_id,
+    COUNT(transaction_id) AS total_transactions,
+    SUM(CASE WHEN transaction_error IS NOT NULL THEN 1 ELSE 0 END) AS total_errors,
+    ROUND(SUM(CASE WHEN transaction_error IS NOT NULL THEN 1 ELSE 0 END) * 100.0 / COUNT(transaction_id), 2) AS error_rate
+FROM
+    transactions_data_table
+GROUP BY
+    merchant_id
+ORDER BY
+    total_errors DESC, error_rate DESC
+LIMIT 10;
