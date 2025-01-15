@@ -4,7 +4,7 @@ Welcome to my SQL Analysis Portfolio! This repository showcases various data ana
 
 ---
 
-## 🏢 [AuroraSQL Debt Analysis and Customer Segmentation](https://github.com/Yungssu/SQLAnalysis/tree/main/AuroraSQLRiskAnalysis)
+## 🏢 [AuroraSQL Debt Analysis and Customer Segmentation](https://github.com/Yungssu/SQLAnalysis/tree/main/AuroraRiskAnalysis)
 
 ### Overview
 This project focused on analyzing customer financial data to group users by **debt levels** and **identify trends**. Using **SQL**, I categorized customers into debt brackets (No Debt, Low, Moderate, High, Very High Debt) and calculated the total debt, average debt, and customer count for each group. The results provided insights into how debt is distributed among customers and identified high-risk groups.
