@@ -40,3 +40,46 @@ GROUP BY
 ORDER BY
     total_errors DESC, error_rate DESC
 LIMIT 10;
+```
+**Result Highlights**:
+- **Merchant 27092** had the highest transaction errors (226 errors out of 7,257 transactions, error rate: 3.11%).
+- Other merchants (e.g., 59935 and 39021) also showed notable error rates, indicating potential issues in transaction processes.
+
+### **1. Top Merchants by Transaction Errors**
+
+**Objective**: Identify merchants with the highest transaction errors and their error rates.  
+**Query**:  
+```sql
+SELECT
+    merchant_id,
+    COUNT(transaction_id) AS total_transactions,
+    SUM(CASE WHEN transaction_error IS NOT NULL THEN 1 ELSE 0 END) AS total_errors,
+    ROUND(SUM(CASE WHEN transaction_error IS NOT NULL THEN 1 ELSE 0 END) * 100.0 / COUNT(transaction_id), 2) AS error_rate
+FROM
+    transactions_data_table
+GROUP BY
+    merchant_id
+ORDER BY
+    total_errors DESC, error_rate DESC
+LIMIT 10;
+```
+
+### **1. Top Merchants by Transaction Errors**
+
+**Objective**: Identify merchants with the highest transaction errors and their error rates.  
+**Query**:  
+```sql
+SELECT
+    merchant_id,
+    COUNT(transaction_id) AS total_transactions,
+    SUM(CASE WHEN transaction_error IS NOT NULL THEN 1 ELSE 0 END) AS total_errors,
+    ROUND(SUM(CASE WHEN transaction_error IS NOT NULL THEN 1 ELSE 0 END) * 100.0 / COUNT(transaction_id), 2) AS error_rate
+FROM
+    transactions_data_table
+GROUP BY
+    merchant_id
+ORDER BY
+    total_errors DESC, error_rate DESC
+LIMIT 10;
+
+
