@@ -15,9 +15,9 @@ This project focused on analyzing customer financial data to group users by **de
 - **Actionable Insights**: Data can guide financial decisions like loan approvals or credit risk management. 🔍
 
 ### Skills Applied
-**SQL Queries**
-**Data Organization**
-**Simplified Financial Analysis**
+- **SQL Queries**
+- **Data Organization**
+- **Simplified Financial Analysis**
 ---
 
 ### About Me 🌟  
@@ -25,15 +25,8 @@ I’m Kenneth Huyong, an aspiring data analyst with a passion for using data to 
 
 Feel free to explore the projects, and don’t hesitate to reach out if you have any questions or collaboration opportunities!
 
-📧 Email: yungssufoolish@gmail.com  
+📧 Email: kennethwhoyong@gmail.com  
 💼 [LinkedIn Profile](https://www.linkedin.com/in/kenneth-huyong-b255352b4/)  
 🌐 [Portfolio](https://github.com/Yungssu/kennethHuyong.github.io)
-
----
-
-### Tools and Technologies Used 🛠️
-- **SQL**: Querying and transforming data
-- **Excel**: Data cleaning and preprocessing
-- **Amazon Aurora**: Database management and querying
 
 ---
