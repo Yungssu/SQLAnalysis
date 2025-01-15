@@ -106,10 +106,10 @@ ORDER BY
 
 ---
 ## 🔍 **Insights & Recommendations**
-**Transaction Errors**:
+- **Transaction Errors**:
 - Merchants with higher transaction error rates (e.g., Merchant 27092) should be audited to minimize disruptions and improve customer experience.
-**Customer Risk Segmentation**:
+- **Customer Risk Segmentation**:
 - High-risk customers (e.g., those with low credit scores and high debt-to-income ratios) may need tailored financial products or interventions.
-**Debt Segmentation**:
+- **Debt Segmentation**:
 - Most customers are in the Very High Debt bracket, emphasizing the need for educational initiatives around financial literacy and debt management.
 
