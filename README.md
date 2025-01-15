@@ -4,34 +4,20 @@ Welcome to my SQL Analysis Portfolio! This repository showcases various data ana
 
 ---
 
-## 🌌 [AuroraSQL Risk Analysis Project](https://github.com/Yungssu/SQLAnalysis/tree/main/AuroraSQLRiskAnalysis)
+## 🏢 [AuroraSQL Debt Analysis and Customer Segmentation](https://github.com/Yungssu/SQLAnalysis/tree/main/AuroraSQLRiskAnalysis)
 
 ### Overview
-This project performs risk analysis on customer data using **AuroraSQL**, focusing on understanding risk factors through customer demographics, credit behaviors, and transaction histories.
+This project focused on analyzing customer financial data to group users by **debt levels** and **identify trends**. Using **SQL**, I categorized customers into debt brackets (No Debt, Low, Moderate, High, Very High Debt) and calculated the total debt, average debt, and customer count for each group. The results provided insights into how debt is distributed among customers and identified high-risk groups.
 
 ### Highlights
-- **Customer Risk Profiling**: Identified key risk factors based on card usage, financial health, and age group trends, enabling targeted marketing strategies. ✅  
-- **Demographic Risk Patterns**: Revealed that younger customers exhibit higher risk factors, suggesting a need for tailored financial advice. 📊  
-- **Risk Factors by Region**: Gained insights into geographical patterns in risk, highlighting areas for strategic risk mitigation. 🌍
+- **Debt Bracket Insights**: Found that most debt is concentrated in the "Very High Debt (>50K)" category, averaging $95,567.👥
+- **Customer Segmentation**: Organized data into clear categories to simplify analysis. 📊  
+- **Actionable Insights**: Data can guide financial decisions like loan approvals or credit risk management. 🔍
 
-### SQL Queries & Insights
-Explore the SQL queries and results from the AuroraSQL Risk Analysis Project. [Link to Project Queries](https://github.com/Yungssu/SQLAnalysis/tree/main/AuroraSQLRiskAnalysis)
-
----
-
-## 🏢 [Cards Data Risk Assessment](https://github.com/Yungssu/SQLAnalysis/tree/main/CardsDataRiskAssessment)
-
-### Overview
-This project involves analyzing **cards_data.xlsx** to assess risk levels, providing insights into card usage patterns, transaction behaviors, and customer profiles.
-
-### Highlights
-- **Transaction Risk Factors**: Identified high-risk transactions and user behaviors by analyzing card transaction histories. 🔍  
-- **Customer Segmentation**: Analyzed customer profiles based on credit scores, spending behaviors, and demographics. 👥  
-- **Financial Health Insights**: Gained insights into the financial health of various customer groups, highlighting potential high-risk areas. 💡
-
-### SQL Queries & Insights
-Check out the SQL queries and detailed analysis from the Cards Data Risk Assessment project here: [Link to Project Queries](https://github.com/Yungssu/SQLAnalysis/tree/main/CardsDataRiskAssessment)
-
+### Skills Applied
+**SQL Queries**
+**Data Organization**
+**Simplified Financial Analysis**
 ---
 
 ### About Me 🌟  
