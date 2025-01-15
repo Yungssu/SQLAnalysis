@@ -1,4 +1,4 @@
-# SQL Analysis Portfolio 📊✨
+# SQL Analysis Portfolio 📊
 
 Welcome to my SQL Analysis Portfolio! This repository showcases various data analysis projects where SQL was used to extract actionable insights from complex datasets. Below are the projects included in this portfolio:
 
