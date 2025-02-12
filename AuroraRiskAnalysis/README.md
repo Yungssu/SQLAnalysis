@@ -105,6 +105,7 @@ ORDER BY
 - The majority of customers fell into the **Very High Debt** segment, suggesting the need for financial counseling or targeted risk management strategies.
 
 ---
+
 ## 🔍 **Insights & Recommendations**
 - **Transaction Errors**:
   Merchants with higher transaction error rates (e.g., Merchant 27092) should be audited to minimize disruptions and improve customer experience.
@@ -112,4 +113,9 @@ ORDER BY
   High-risk customers (e.g., those with low credit scores and high debt-to-income ratios) may need tailored financial products or interventions.
 - **Debt Segmentation**:
   Most customers are in the Very High Debt bracket, emphasizing the need for educational initiatives around financial literacy and debt management.
+
+  ---
+
+  ## 🔗 Portfolio Link  
+- [Back to My Portfolio](https://github.com/Yungssu/kennethHuyong.github.io)
 
