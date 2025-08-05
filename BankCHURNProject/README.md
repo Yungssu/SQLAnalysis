@@ -109,10 +109,8 @@ Analyzed via Excel PivotCharts:
 
 I'm Kenneth Huyong, an aspiring data analyst with a strong passion for SQL and data storytelling. This is one of my hands-on portfolio projects designed to demonstrate real-world business insight using data.
 
-📫 Connect with me:
-
-- [LinkedIn](https://www.linkedin.com/in/kennethhuyong)
-- [GitHub](https://github.com/Yungssu)
+  ## 🔗 Portfolio Link  
+- [Back to My Portfolio](https://github.com/Yungssu/kennethHuyong.github.io)
 
 ---
 
