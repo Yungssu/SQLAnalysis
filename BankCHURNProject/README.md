@@ -55,11 +55,14 @@ Churn correlates strongly with:
 
 Analyzed via Excel PivotCharts:
 
-- Age Categories: Young Adult, Early Career, Mid-Career, Senior
-  (https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/CustomerbyAge.png)
+- Age Categories: Young Adult, Early Career, Mid-Career, Senior 
+![CustomerAge Graph](https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/CustomerbyAge.png)
 - Income Brackets: Low, Middle, High
+![Income Graph](https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/CustomerbyIncome.png)
 - Tenure Groups: New, Mid-Term, Loyal
+![Tenure Graph](https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/byLoyalty.png
 - Credit Score Categories: Poor to Excellent
+![CreditScore Graph](https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/CustomerbyCreditScore.png)
 
 ### 4. Country Differences
 
