@@ -60,7 +60,7 @@ Analyzed via Excel PivotCharts:
 - Income Brackets: Low, Middle, High
 ![Income Graph](https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/CustomerbyIncome.png)
 - Tenure Groups: New, Mid-Term, Loyal
-![Tenure Graph](https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/byLoyalty.png
+![Tenure Graph](https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/byLoyalty.png)
 - Credit Score Categories: Poor to Excellent
 ![CreditScore Graph](https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/CustomerbyCreditScore.png)
 
