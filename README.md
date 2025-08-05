@@ -4,7 +4,7 @@ Welcome to my SQL Analysis Portfolio! This repository showcases projects where *
 
 ---
 
-## 📊 Bank Churn Segmentation and Risk Insights(https://github.com/Yungssu/SQLAnalysis/tree/main/AuroraRiskAnalysis)
+## 📊 [Bank Churn Segmentation and Risk Insights](https://github.com/Yungssu/SQLAnalysis/tree/main/BankCHURNProject)
 
 ### Overview
 This project investigates customer churn in a retail bank. By cleaning the raw data and writing SQL queries, I explored **who is most likely to leave** and **why**, revealing patterns across gender, geography, tenure, product usage, and customer activity.
