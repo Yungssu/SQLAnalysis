@@ -18,12 +18,14 @@ This project explores customer churn in a retail bank using only **SQL** — fro
 
 ## 🗂️ Dataset
 
-- Original file: [`https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/Dataset/Bank_Churn_Messy.xlsx`]
+- Original file: [Bank_Churn_Messy.xlsx](https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/Dataset/Bank_Churn_Messy.xlsx)
 - Cleaned and split into two tables:
-  - [`https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/Dataset/customer_info.csv`]
-  - [`https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/Dataset/account_info.csv`]
+  - [customer_info.csv](https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/Dataset/customer_info.csv)
+  - [account_info.csv](https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/Dataset/account_info.csv)
 - Data was manually cleaned and loaded into MySQL.
 - A data dictionary is included for reference.
+  - [Bank_Churn_Data_Dictionary.csv](https://github.com/Yungssu/SQLAnalysis/blob/main/BankCHURNProject/Dataset/Bank_Churn_Data_Dictionary.csv)
+
 
 ---
 
