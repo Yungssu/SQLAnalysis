@@ -4,7 +4,6 @@
 
 This project explores customer churn in a retail bank using only **SQL** — from data cleaning to in-depth analysis. The goal was to identify what characteristics are more common among churned customers, understand the bank's customer base, and build actionable insights for business teams and stakeholders.
 
-✅ No Python, Excel, or BI tools were used for this analysis — just pure SQL queries.
 
 ## 🧠 Key Questions Answered
 
