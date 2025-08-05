@@ -104,19 +104,6 @@ Analyzed via Excel PivotCharts:
 
 ---
 
-## 📂 Folder Structure
-
-```
-📁 Bank_Churn_SQL_Analysis
-├── cleaned_data.sql
-├── churn_analysis_queries.sql
-├── Bank_Churn_Data_Dictionary.csv
-├── visuals/
-│   └── customer_segmentation_charts.png
-└── README.md ← you are here
-```
-
----
 
 ## 🙋‍♂️ About Me
 
